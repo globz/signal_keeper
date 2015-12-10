@@ -3,7 +3,7 @@
 This small EXPERIMENTAL tool when enabled will try to keep a VPN connection alive by
 downloading a small image ~5kb this should help avoid random connection lost
 
-  Init: var signal_keeper = setInterval(MeasureConnectionSpeed, 10000);
+  Init: var signal_keeper = setInterval(signal, 10000);
 
   -Features:
   internal tick auto increment on each run (10sec) when tick reach 200 Signal Keeper will auto shutdown
